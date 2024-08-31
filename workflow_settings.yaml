@@ -1,0 +1,5 @@
+defaultProject: tactical-racer-432905-g9
+defaultLocation: asia-northeast1
+defaultDataset: dataform
+defaultAssertionDataset: dataform_assertions
+dataformCoreVersion: 3.0.0

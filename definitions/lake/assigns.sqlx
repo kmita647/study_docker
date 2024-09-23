@@ -1,8 +1,0 @@
-config {
-  type: "table",
-  schema: "lake",
-  name:"assigns",
-  description: "担当者"
-}
-
-select * from ${ref("lake", "assign_base")}

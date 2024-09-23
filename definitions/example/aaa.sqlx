@@ -1,0 +1,9 @@
+config {
+  type: "table",
+  schema: "example",
+  name: "aaa"
+}
+
+select
+  "example_column" as column_name,
+  1 as example_value 

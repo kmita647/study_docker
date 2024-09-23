@@ -1,8 +1,0 @@
-config {
-  type: "table",
-  schema: "lake",
-  name:"estimated_costs",
-  description: "見積もりコスト"
-}
-
-select * from ${ref("lake", "estimated_cost_base")}

@@ -1,0 +1,6 @@
+config {
+  type: "declaration",
+  schema: "lake",
+  name:"order_invoice_base",
+  description: "案件・請求書紐付け from google spreadsheet"
+}

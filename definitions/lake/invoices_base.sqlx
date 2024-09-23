@@ -1,0 +1,6 @@
+config {
+  type: "declaration",
+  schema: "lake",
+  name:"invoice_base",
+  description: "請求書一覧 from google spreadsheet"
+}

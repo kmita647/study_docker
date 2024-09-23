@@ -1,0 +1,6 @@
+config {
+  type: "declaration",
+  schema: "lake",
+  name:"estimated_cost_base",
+  description: "見積もりコスト from google spreadsheet"
+}

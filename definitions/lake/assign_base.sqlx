@@ -1,0 +1,6 @@
+config {
+  type: "declaration",
+  schema: "lake",
+  name:"assign_base",
+  description: "担当者 from google spreadsheet"
+}

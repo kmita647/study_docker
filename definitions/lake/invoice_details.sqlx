@@ -1,0 +1,8 @@
+config {
+  type: "table",
+  schema: "lake",
+  name:"invoice_details",
+  description: "請求書詳細"
+}
+
+select * from ${ref("lake", "invoice_detail_base")}

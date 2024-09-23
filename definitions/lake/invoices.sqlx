@@ -1,0 +1,8 @@
+config {
+  type: "table",
+  schema: "lake",
+  name:"invoices",
+  description: "請求書一覧"
+}
+
+select * from ${ref("lake", "invoice_base")} where id is not null

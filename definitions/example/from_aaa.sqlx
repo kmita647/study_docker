@@ -1,0 +1,11 @@
+config {
+  type: "table",
+  schema: "example",
+  name: "from_aaa",
+  tags: ["first_tag"]
+}
+
+select
+  *
+from
+  ${ref("aaa")}

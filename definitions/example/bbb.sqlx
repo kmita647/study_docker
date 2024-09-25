@@ -1,0 +1,11 @@
+config {
+  type: "table",
+  schema: "example",
+  name: "bbb",
+  tags: ["first_tag"]
+}
+
+select
+  "example_column" as column_name,
+  1 as example_value,
+  2 as value2,
